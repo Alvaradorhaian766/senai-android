@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".cadastrar">
+
+    <TextView
+        android:id="@+id/textCadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="cadastrar"
+        android:textColor="#2196F3"
+        android:textSize="24sp" />
+
+    <!-- Corrigido para "Nome:" -->
+
+    <!-- Corrigido para "Email:" -->
+
+    <!-- Corrigido para "Telefone:" -->
+
+    <!-- Corrigido para "CPF:" -->
+
+
+    <TextView
+        android:id="@+id/textCurso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Curso" />
+
+    <EditText
+        android:id="@+id/editcurso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="digite o nome do curso"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/textnome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="nome completo" />
+
+    <EditText
+        android:id="@+id/editNomecompleto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="digite o nome completo"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/textnascimento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="data de nascimento" />
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="digite a data de nascimento"
+        android:inputType="date" />
+
+    <TextView
+        android:id="@+id/textMatricula"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="matricula do curso" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="digite a matricula do seu curso"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textcpf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="cpf" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="digite o seu cpf"
+        android:inputType="text" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnCadastrar"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="cadastrar" />
+
+        <Button
+            android:id="@+id/btnMostrar"
+            android:layout_width="116dp"
+            android:layout_height="wrap_content"
+            android:text="moatrar" />
+
+        <Button
+            android:id="@+id/btnExcluir"
+            android:layout_width="127dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Excluir" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

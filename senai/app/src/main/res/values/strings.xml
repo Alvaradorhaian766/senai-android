@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">senai</string>
+    <string name="cadastrar_placeholder">Cadastrar</string>
+    <string name="login_placeholder">Login</string>
+</resources>
